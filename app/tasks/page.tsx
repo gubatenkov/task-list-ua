@@ -6,8 +6,8 @@ import TaskCounter from '@/app/ui/TaskCounter'
 import { Skeleton } from '@/app/ui/skeleton'
 import Table from '@/app/ui/TasksTable'
 import { Card } from '@/app/ui/card'
+import Clock from '@/app/ui/Clock'
 import { Suspense } from 'react'
-import Clock from "@/app/ui/Clock";
 
 type Props = {
   searchParams?: {
